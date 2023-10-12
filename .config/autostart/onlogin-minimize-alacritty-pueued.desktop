@@ -1,0 +1,7 @@
+[Desktop Entry]
+Exec=/home/david/.local/bin/onlogin-minimize-alacritty-pueued
+Icon=
+Name=onlogin-minimize-alacritty-pueued
+Path=
+Terminal=False
+Type=Application

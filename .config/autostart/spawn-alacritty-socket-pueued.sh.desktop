@@ -1,0 +1,7 @@
+[Desktop Entry]
+Exec=/home/david/.config/autostart/scripts/spawn-alacritty-socket-pueued.sh
+Icon=
+Name=spawn-alacritty-socket-pueued.sh
+Path=
+Terminal=False
+Type=Application

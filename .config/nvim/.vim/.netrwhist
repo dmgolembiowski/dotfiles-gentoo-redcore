@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =2
+let g:netrw_dirhist_2='/code/rust/pkg/src'
+let g:netrw_dirhist_1='/code/rust/pkg'
+let g:netrw_dirhist_0='/code/rust'
+let g:netrw_dirhist_9='/home/davidgolembiowski/.ledgers'
+let g:netrw_dirhist_8='/code/tooling/multilogger-rs/examples'
+let g:netrw_dirhist_7='/code/tooling/multilogger-rs'
+let g:netrw_dirhist_6='/code/tooling'
+let g:netrw_dirhist_5='/code/tooling/flex-lang'
+let g:netrw_dirhist_4='/code/tooling/flex-lang/src'
+let g:netrw_dirhist_3='/code/tooling/flex-lang/src/main'
