@@ -1,0 +1,3 @@
+#!/bin/fish
+set -x TERM_WINDOW_SESSION $( petname -s _ -w 2 )
+alacritty msg create-window --title $TERM_WINDOW_SESSION --command zellij -l compact attach -c $TERM_WINDOW_SESSION  options --no-pane-frames --mirror-session=true

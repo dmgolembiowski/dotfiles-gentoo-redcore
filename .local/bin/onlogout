@@ -1,0 +1,6 @@
+#!/bin/fish
+pkill alacritty
+pkill pueued
+rm /var/run/user/1000/pueue_david.socket
+rm/var/run/user/1000/pueue.pid
+rm /home/david/.local/state/alacritty/alacritty-sock

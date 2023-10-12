@@ -1,0 +1,22 @@
+#!/bin/bash
+
+# Loop, waiting for the window to initialise
+i=0
+while [ $i -lt 20 ]
+do
+        sleep 1
+        # check if the window can be found
+        window=`wmctrl -l|grep "AlacrittyPueued"`
+        if [ "$window" != "" ]
+        then
+                # Found the window
+                for w in $window
+                do
+                        # Minimise the window
+                        xdotool windowminimize $w
+                done
+                pueue add "eww daemon --logs --no-daemonize"
+                break
+        fi
+done
+
