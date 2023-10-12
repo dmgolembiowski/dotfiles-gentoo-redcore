@@ -30,3 +30,4 @@ I'm going to assume that you already have `cargo` installed with a Rust version 
 ## Helpful Setup Info
 ### Helix
 > Getting helix to work for Rust on my machine was a major pain. To get it working, there's a hack involving `codelldb`. See [rust.language.debugger](https://github.com/dmgolembiowski/dotfiles-gentoo-redcore/blob/21d6a87b7886f5f51320e96357db628d955e7f5d/.config/helix/languages.toml#L191)
+For additional help, see [this issue](https://github.com/helix-editor/helix/discussions/4048#discussion-4434914) and [this wiki](https://github.com/helix-editor/helix/wiki/Debugger-Configurations#linux-tested-in-ubuntu)
