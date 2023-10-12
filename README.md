@@ -20,4 +20,10 @@ With the right key-bindings, autostart programs, custom shortcuts, and customiza
 
 ### TODO: Glammour shots
 
+### Installation
+
+I'm going to assume that you already have `cargo` installed with a Rust version of at least 1.70+. It will be needed for the following:
+
+- [ petname ]()
+- [ rtx-cli for jellyfin]()
 
